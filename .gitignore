@@ -1,1 +1,17 @@
 fish_variables
+
+# jorgebucaran/fisher
+functions/fisher.fish
+completions/fisher.fish
+
+# jorgebucaran/hydro
+functions/fish_mode_prompt.fish
+functions/fish_prompt.fish
+conf.d/hydro.fish
+
+# jethrokuan/z
+functions/__z.fish
+functions/__z_add.fish
+functions/__z_clean.fish
+functions/__z_complete.fish
+conf.d/z.fish
