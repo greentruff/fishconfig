@@ -10,8 +10,13 @@ functions/fish_prompt.fish
 conf.d/hydro.fish
 
 # jethrokuan/z
+functions/__z_*
 functions/__z.fish
-functions/__z_add.fish
-functions/__z_clean.fish
-functions/__z_complete.fish
 conf.d/z.fish
+
+# IlanCosman/tide@v6
+completions/tide.fish
+conf.d/_tide_init.fish
+functions/tide/*
+functions/_tide_*
+functions/tide.fish
