@@ -8,12 +8,12 @@ if test -d $BACKEND_PATH
 
     # brew install coreutils
     function tdb
-        genv -C $ROOT_BACKEND_PROJECT/src poetry run flask db
+        genv -C $ROOT_BACKEND_PROJECT/src poetry run flask db $argv
     end
     function tpt
-        genv -C $ROOT_BACKEND_PROJECT/src poetry run pytest
+        genv -C $ROOT_BACKEND_PROJECT/src poetry run pytest $argv
     end
     function tpo
-        genv -C $ROOT_BACKEND_PROJECT/src poetry
+        genv -C $ROOT_BACKEND_PROJECT/src poetry $argv
     end
 end
