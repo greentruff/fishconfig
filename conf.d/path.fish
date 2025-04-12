@@ -1,4 +1,3 @@
-fish_add_path -g /opt/homebrew/bin
 
 if test -d $HOME/.local/bin
     fish_add_path -g $HOME/.local/bin
