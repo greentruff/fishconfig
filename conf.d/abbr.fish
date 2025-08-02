@@ -18,3 +18,16 @@ abbr -a gm 'git merge'
 abbr -a gb 'git checkout -b'
 abbr -a glb 'git last-branches'
 abbr -a gf 'git fetch'
+
+# jj
+abbr -a jn 'jj new'
+abbr -a jf 'jj git fetch'
+abbr -a jps 'jj git push'
+abbr -a jpn 'jj git push --allow-new'
+abbr -a jc 'jj pre-commit'
+abbr -a jd 'jj diff'
+abbr -a jrm 'jj rebase -d main -b'
+abbr -a jbc 'jj bookmark create -r @-'
+
+abbr -a bb 'jj log-branch'
+abbr -a bl 'jj latest-bookmarks'
