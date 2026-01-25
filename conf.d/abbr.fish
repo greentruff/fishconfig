@@ -6,6 +6,7 @@ abbr less bat
 abbr -a ga 'git add'
 abbr -a gco 'git checkout'
 abbr -a gc 'git commit'
+abbr -a gca 'git commit --amend'
 abbr -a gpl 'git pull'
 abbr -a gps 'git push'
 abbr -a gpf 'git push --force'
