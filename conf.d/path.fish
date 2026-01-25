@@ -1,5 +1,9 @@
 fish_add_path /opt/homebrew/bin
 fish_add_path /opt/homebrew/opt/rustup/bin
 
-fish_add_path /Users/truff/.local/bin
-fish_add_path /Users/truff/bin
+if test -d $HOME/.local/bin
+    fish_add_path $HOME/.local/bin
+end
+if test -d $HOME/bin
+    fish_add_path $HOME/bin
+end
