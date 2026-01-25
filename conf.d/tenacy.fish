@@ -18,4 +18,6 @@ if test -d $BACKEND_PATH
     function tpo --wraps='poetry' --description 'Poetry in tenacy-app'
         genv -C $ROOT_BACKEND_PROJECT/src poetry $argv
     end
+    abbr tpu tpt -m unit
+    abbr tpi tpt -m '"(not unit)"'
 end
