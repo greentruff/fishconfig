@@ -1,5 +1,4 @@
-
-set BACKEND_PATH ~/dev/tenacy-python/backend
+set BACKEND_PATH ~/dev/tenacy-app/backend
 
 if test -d $BACKEND_PATH
     envsource $BACKEND_PATH/local.env
