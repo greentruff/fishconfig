@@ -17,3 +17,7 @@ if type -q bat
     #  Use for manpages
     set -gx MANPAGER "sh -c 'col -bx | bat -l man -p'"
 end
+
+if test -d /opt/homebrew/opt/imagemagick
+    set -gx MAGICK_HOME /opt/homebrew/opt/imagemagick
+end
