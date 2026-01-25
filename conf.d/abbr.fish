@@ -1,3 +1,4 @@
+abbr -a vi 'nvim'
 abbr -a nv 'nvim'
 
 abbr less bat
@@ -29,6 +30,7 @@ abbr -a jd 'jj diff'
 abbr -a jrm 'jj rebase -d main -b'
 abbr -a jb 'jj bookmark create -r @'
 abbr -a jbp 'jj bookmark create -r @-'
+abbr -a jqe 'jj squash-empty'
 
 abbr -a bb 'jj log-branch'
 abbr -a bl 'jj latest-bookmarks'
