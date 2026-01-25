@@ -1,9 +1,13 @@
-fish_add_path /opt/homebrew/bin
-fish_add_path /opt/homebrew/opt/rustup/bin
+fish_add_path -g /opt/homebrew/bin
 
 if test -d $HOME/.local/bin
-    fish_add_path $HOME/.local/bin
+    fish_add_path -g $HOME/.local/bin
 end
+
 if test -d $HOME/bin
-    fish_add_path $HOME/bin
+    fish_add_path -g $HOME/bin
+end
+
+if test -d $HOME/.cargo/bin
+    fish_add_path -g $HOME/.cargo/bin
 end

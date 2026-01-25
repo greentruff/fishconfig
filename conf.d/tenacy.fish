@@ -1,7 +1,7 @@
 
 set BACKEND_PATH ~/dev/tenacy-python/backend
 
-if test -d
+if test -d $BACKEND_PATH
     envsource $BACKEND_PATH/local.env
     set -gx ROOT_BACKEND_PROJECT $BACKEND_PATH/back
     set -gx FLASK_APP $BACKEND_PATH/back/src/run.py
