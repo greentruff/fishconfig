@@ -16,7 +16,7 @@ if test -d $BACKEND_PATH
         end
         genv -C $ROOT_BACKEND_PROJECT/src poetry run pytest $argv
     end
-    function tpo
+    function tpo --wraps='poetry' --description 'Poetry in tenacy-app'
         genv -C $ROOT_BACKEND_PROJECT/src poetry $argv
     end
 end
