@@ -1,12 +1,14 @@
+set tool_paths
+set -a tool_paths $HOME/.cargo/bin
+set -a tool_paths $HOME/go/bin
+set -a tool_paths $HOME/.docker/bin
 
-if test -d $HOME/.local/bin
-    fish_add_path -g $HOME/.local/bin
-end
+set home_paths
+set -a home_paths $HOME/.local/bin 
+set -a home_paths $HOME/bin 
 
-if test -d $HOME/bin
-    fish_add_path -g $HOME/bin
-end
-
-if test -d $HOME/.cargo/bin
-    fish_add_path -g $HOME/.cargo/bin
+for p in $tool_paths $home_paths
+    if test -d $p
+        fish_add_path -g $p
+    end
 end
