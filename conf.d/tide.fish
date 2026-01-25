@@ -10,7 +10,7 @@ function refresh_tide
         --prompt_connection='Disconnected' \
         --prompt_spacing=Compact \
         --icons='Few icons' \
-        --transient=Yes
+        --transient=No
 
     set -U tide_left_prompt_items context pwd git newline character
     set -U tide_right_prompt_items status cmd_duration jobs direnv kubectl toolbox terraform nix_shell time vi_mode
