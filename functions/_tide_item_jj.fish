@@ -12,9 +12,9 @@ function _tide_item_jj
         change_id.shortest(),
         coalesce(
             if(
-                description.first_line().substr(0, 24).starts_with(description.first_line()),
-                description.first_line().substr(0, 24),
-                description.first_line().substr(0, 23) ++ "…"
+                description.first_line().substr(0, 80).starts_with(description.first_line()),
+                description.first_line().substr(0, 80),
+                description.first_line().substr(0, 79) ++ "…"
             ),
             "no description"
         ),
