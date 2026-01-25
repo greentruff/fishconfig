@@ -1,4 +1,4 @@
-fish_vi_key_bindings
+set -g fish_key_bindings fish_vi_key_bindings
 
 # Additional readline keybinds for vi insert mode
 bind --user -M insert \ca beginning-of-line
