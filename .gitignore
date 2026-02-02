@@ -23,3 +23,9 @@ functions/_tide_*
 !functions/_tide_item_jj.fish
 !functions/_tide_item_git.fish
 functions/tide.fish
+
+# fisher install jorgebucaran/nvm.fish
+completions/nvm.fish
+conf.d/nvm.fish
+functions/_nvm_*
+functions/nvm.fish
