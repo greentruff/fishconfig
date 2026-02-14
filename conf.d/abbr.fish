@@ -23,7 +23,7 @@ abbr -a gf 'git fetch'
 # jj
 abbr -a jb  'jj bookmark create -r @'
 abbr -a jbp 'jj bookmark create -r @-'
-abbr -a jc  'jj pre-commit'
+abbr -a jc  'jj commit'
 abbr -a jd  'jj diff'
 abbr -a jf  'jj git fetch'
 abbr -a jl  'jj log -n 15'
